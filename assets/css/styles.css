@@ -1,0 +1,406 @@
+@font-face {
+  font-family: "Assistant-Bold";
+  src: url("../fonts/Assistant-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Assistant-ExtraBold";
+  src: url("../fonts/Assistant-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Assistant-Regular";
+  src: url("../fonts/Assistant-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Assistant-SemiBold";
+  src: url("../fonts/Assistant-SemiBold.ttf") format("truetype");
+}
+
+html {
+  direction: rtl;
+  font-family: Assistant-Regular;
+}
+
+body {
+  /* background-image: url(../img/ibm_for_all_minisite-02.png); */
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100vw;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ac-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ac-sticky {
+  display: none;
+}
+
+section {
+  position: relative;
+}
+
+/* ac-first */
+.ac-first {
+  color: #1d2242;
+  padding: 4.2vw 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ac-abs {
+  position: absolute;
+}
+
+.ac-left-img {
+  top: 2.4vw;
+  left: 1vw;
+  width: 14vw;
+}
+.ac-right-img {
+  right: 2.9vw;
+  top: 2.4vw;
+  width: 13vw;
+}
+
+.ac-text-wrapper {
+  margin: 0 auto;
+}
+
+.ac-text-wrapper h1 {
+  font-weight: 400;
+  font-size: 2.6vw;
+  line-height: 3vw;
+}
+
+.ac-first .ac-link {
+  text-decoration: none;
+  color: black;
+  z-index: 1;
+  width: 47vw;
+  left: 26.5vw;
+  font-size: 1.8vw;
+  padding: 0.9vw 0.3vw;
+  background: #e7db63;
+  bottom: -1.7vw;
+}
+/* !ac-first */
+
+/* ac-second */
+.ac-second {
+  padding-top: 6vw;
+  padding-bottom: 3.3vw;
+  color: white;
+  font-size: 1.5vw;
+  background: #1d2242;
+}
+
+.ac-second .first-p {
+  margin-bottom: 1.1vw;
+}
+
+.ac-second .first-p span {
+  margin-top: 0.2vw;
+  font-size: 1.6vw;
+}
+
+.ac-second img {
+  right: 0;
+  bottom: 0;
+}
+/* !ac-second */
+
+/* ac-third */
+.ac-third {
+  margin: 0 auto;
+  font-size: 1.5vw;
+  color: #1d2242;
+  padding: 2vw;
+  padding-bottom: 3vw;
+  background: #76c2e3;
+}
+
+.ac-third img {
+  left: 0vw;
+  bottom: 0;
+}
+
+.ac-third .white-text.bold {
+  margin-top: 1vw;
+  font-size: 1.6vw;
+}
+
+.ac-third .semi span {
+  line-height: 2vw;
+  font-size: 1.6vw;
+}
+/* !ac-third */
+
+/* ac-fourth */
+.ac-fourth {
+  color: #1d2242;
+  font-size: 1.5vw;
+  padding: 1.7vw;
+  padding-bottom: 3vw;
+}
+
+.ac-fourth .semi {
+  font-size: 1.6vw;
+  line-height: 2.2vw;
+}
+
+.ac-fourth img {
+  right: 1vw;
+  bottom: 0;
+}
+/* !ac-fourth */
+
+/* ac-fifth */
+.ac-fifth {
+  font-size: 2vw;
+  color: #1d2242;
+  padding: 2.4vw;
+  background: #f7931e;
+  z-index: 2;
+}
+
+.ac-fifth h4 {
+  margin-bottom: 1vw;
+}
+
+.ac-fifth form {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.ac-submit-form input {
+  color: #1d2242;
+  background: #f7931e;
+  border: 1px solid #1d2242;
+  padding: 0.5vw;
+  font-family: Assistant-SemiBold;
+}
+
+.ac-form-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ac-form-group input {
+  width: 30%;
+  font-size: 1.9vw;
+  margin: 0.5vw;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #1d2242;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #1d2242;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #1d2242;
+}
+
+.ac-submit-form input[type="submit"] {
+  background: #1d2242;
+  color: white;
+  border: none;
+}
+/* !ac-fifth */
+
+.ac-second img,
+.ac-third img,
+.ac-fourth img {
+  width: 22vw;
+  bottom: -0.06vw;
+}
+
+/* ac-thanks */
+.ac-thanks {
+  text-align: right;
+  font-size: 3.6vw;
+  color: white;
+  padding: 15vw;
+  position: relative;
+  background-color: #9e005d;
+}
+
+.ac-thanks img {
+  width: 32vw;
+  left: 11.8vw;
+  bottom: 0;
+}
+
+/* !ac-thanks */
+
+/* clasess */
+.semi {
+  font-family: Assistant-SemiBold;
+}
+.bold {
+  font-family: Assistant-Bold;
+}
+.extra-bold {
+  font-family: Assistant-ExtraBold;
+}
+.shadow {
+  -webkit-box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.61);
+  box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.61);
+}
+.yellow-text {
+  color: #e7db63;
+}
+.white-text {
+  color: #fff;
+}
+/* !clasess */
+
+@media all and (max-width: 1000px) {
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .ac-sticky {
+    position: fixed;
+    display: inline-block;
+    bottom: 0;
+    left: 1vw;
+    z-index: 1;
+  }
+
+  .ac-sticky img {
+    width: 50vw;
+  }
+
+  /* ac-first */
+  .ac-first {
+    padding-top: 15vw;
+  }
+
+  .ac-left-img {
+    width: 24vw;
+  }
+  .ac-right-img {
+    width: 23vw;
+  }
+
+  .ac-text-wrapper h1 {
+    font-size: 5vw;
+    line-height: 1.2;
+  }
+
+  .ac-first .ac-link {
+    text-decoration: none;
+    color: black;
+    z-index: 1;
+    width: 90vw;
+    left: 5vw;
+    font-size: 3.5vw;
+    padding: 0vw;
+    background: #e7db63;
+    bottom: -2vw;
+  }
+  /* !ac-first */
+
+  /* ac-second */
+  .ac-second {
+    font-size: 5.5vw;
+    padding: 5vw;
+    padding-bottom: 30vw;
+    padding-top: 10vw;
+  }
+
+  .ac-second .first-p span {
+    font-size: 5vw;
+    line-height: 1;
+  }
+
+  /* ac-third */
+  .ac-third {
+    font-size: 5.5vw;
+    padding: 5vw;
+    padding-bottom: 33vw;
+    padding-top: 10vw;
+  }
+
+  .ac-third img {
+    left: 40vw;
+  }
+
+  .ac-third .white-text.bold {
+    font-size: 5vw;
+    line-height: 1;
+  }
+
+  .ac-third .semi span {
+    font-size: 5vw;
+    line-height: 1;
+  }
+  /* !ac-third */
+
+  /* ac-fourth */
+  .ac-fourth {
+    font-size: 5.5vw;
+    padding: 5vw;
+    padding-bottom: 30vw;
+    padding-top: 10vw;
+  }
+
+  .ac-fourth img {
+    right: 40vw;
+    bottom: 0;
+  }
+
+  .ac-fourth .semi {
+    font-size: 5vw;
+    line-height: 7vw;
+  }
+
+  .ac-fourth .semi .extra-bold {
+    font-size: 6vw;
+    line-height: 7vw;
+  }
+
+  /* !ac-fourth */
+
+  /* ac-fifth */
+  .ac-fifth {
+    font-size: 5vw;
+    line-height: 1;
+  }
+
+  .ac-fifth form {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .ac-form-group {
+    flex-direction: column;
+  }
+
+  .ac-form-group input {
+    width: 100%;
+    font-size: 5vw;
+    line-height: 1;
+  }
+
+  .ac-form-group input[type="submit"] {
+    font-size: 7vw;
+  }
+  /* !ac-fifth */
+}
